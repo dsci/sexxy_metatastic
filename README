@@ -1,13 +1,21 @@
 SexxyMetatastic
 ===============
 
-Introduction goes here.
+SexxyMetatastic is a very simple rails plugin for displaying some meta_tags.
 
 
 Example
 =======
 
-Example goes here.
+In your view add something like that:
+
+  <%=display_meta({:keywords => "sun fishing water", :description => "sunshine site"})%>
+  
+The HTML output should be
+
+  <meta name='keywords' content='sun fishing water' />
+  <meta name='description' content='sunshine site' />
 
 
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+
+Copyright (c) 2009 Daniel Schmidt, released under the MIT license
